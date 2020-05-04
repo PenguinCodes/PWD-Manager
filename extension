@@ -1,0 +1,11 @@
+if __name__=="__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec())
+    "mongodb+srv://tim:userisadmin@cluster0-v5ycu.gcp.mongodb.net/test?retryWrites=true&w=majority"
+     0x7fab856777f0><pymongo.cursor.Cursor object at 0x7f153df6b790>
+     "title" : BinData(0,"Z0FBQUFBQmVyR25vMndFcGFiUTJxeTg3QXlLZlVaZEQxVzdCTE5nbHkzSk96bk5heVpfc3BvZS0wc00yVUVaNl9xNFktYXdUYThOMVFFdFNvVVEzN2pXeTlUcE1pT1ZPdmc9PQ==")
